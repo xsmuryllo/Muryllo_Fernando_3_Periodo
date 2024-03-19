@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tela login.css">
+  <title>Gestão Automotiva</title>
+  <script src="validação.js" defer></script>
+</head>
+
+  <body>
+
+    <div class="tela-login">
+
+
+      <div class="sobre-login">
+        <div class="card-login">
+          <h1>FAÇA O LOGIN</h1>
+
+            <div class="texto-login-usuario">
+              <label for="usuario">Usuário:</label>
+              <input type="text" name="usuario" placeholder="usuário" id="usuario" autocomplete="on">
+            </div>
+
+            <div class="texto-login-senha">
+              <label for="senha">Senha:</label>
+              <input type="password" name="senha" placeholder="senha" id="senha" autocomplete="on">
+            </div> 
+            
+            <button type="button" class="botão-entrar" onclick="logar()">ENTRAR</button>
+
+              <div class="nao-tem-conta">
+                <label> Você não tem conta?</label>
+                <a href="./nao-tem-conta/index.html"> clique aqui </a>
+              </div>              
+            
+            <div class="recuperar-senha">
+              <label>Esqueceu a senha?</label>
+              <a href="./esqueceu-senha/index.html">clique aqui</a>
+            </div>
+
+          </div>
+    </div> 
+  </body>
+  </html> 
+
+
+
